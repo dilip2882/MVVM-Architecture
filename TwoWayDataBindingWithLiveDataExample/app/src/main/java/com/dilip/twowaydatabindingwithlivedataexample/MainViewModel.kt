@@ -1,8 +1,9 @@
-package com.dilip.databindingwithlivedataexample
+package com.dilip.twowaydatabindingwithlivedataexample
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+
 
 class MainViewModel : ViewModel() {
 
