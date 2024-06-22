@@ -48,7 +48,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
-    implementation("androidx.room:room-runtime")
-    kapt("androidx.room:room-compiler")  // To use Kotlin annotation processing tool (kapt)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0-RC")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0-RC")
+    implementation("androidx.room:room-ktx:2.7.0-alpha04")
+    implementation("androidx.room:room-runtime:2.7.0-alpha04")
+    kapt("androidx.room:room-compiler:2.7.0-alpha04")  // To use Kotlin annotation processing tool (kapt)
 }
